@@ -1,0 +1,92 @@
+<!-- Biggart Tech Corporate Portal (BuildFire-Compatible) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biggart Tech Corporate Portal</title>
+
+  <!-- Optional font -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ACCESS GATE -->
+  <div id="accessSection" class="access-card" aria-live="polite">
+    <h1>What is the access code?</h1>
+    <input type="text" id="codeInput" placeholder="Enter code here" aria-label="Access code" />
+    <br />
+    <button class="btn-primary" id="submitCodeBtn">Submit</button>
+    <div id="accessMessage"></div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="contentSection" style="display:none;">
+    <div class="top-navbar">
+      <div class="nav-left">
+        <img
+          src="https://img1.wsimg.com/isteam/ip/a66f36a7-3fc1-4f3e-bacd-21c14ba39afc/blob-eb7ea4a.png/:/rs=h:175,m"
+          alt="eXp Realty Logo"
+        />
+      </div>
+      <div class="nav-right">
+        <a href="#" id="myPortalLink">My Portal</a>
+      </div>
+    </div>
+
+    <div class="section-wrap">
+        <div class="sub-header">  </div>
+      <div class="stripe-container">  
+        <a href="#" class="grid-button" id="subscribeBtn"> 🚀 Build New App</a>
+        </div>
+
+      <!-- App Card -->
+      <div class="card">
+        <div class="sub-header">App</div>
+        <div class="grid cols-2">
+          <a href="#" class="grid-button" id="btnChecklist">📋 Checklist</a>
+          <a href="#" class="grid-button" id="btnMyApp">📱 My App</a>
+          <a href="#" class="grid-button" id="btnProfile">👤 My Profile</a>
+          <a href="#" class="grid-button" id="btnRequests">🛠 Requests</a>
+        </div>
+      </div>
+
+      <!-- Billing Card -->
+      <div class="card">
+        <div class="sub-header">Billing</div>
+        <div class="grid cols-3">
+          <a href="#" class="grid-button" id="btnBillingPortal">💳 Billing</a>
+          <a href="#" class="grid-button" id="btnAddOns">➕ Add-Ons</a>
+          <a href="#" class="grid-button" id="btnPay">💰 Pay</a>
+        </div>
+      </div>
+
+      <!-- Support Card -->
+      <div class="card">
+        <div class="sub-header">VIP Support</div>
+        <div class="grid cols-3">
+          <a href="#" class="grid-button" id="btnWhatsApp">⭐ WhatsApp</a>
+          <a href="#" class="grid-button" id="btnEmail">📧 Email</a>
+          <a href="#" class="grid-button" id="btnCall">📞 Call</a>
+        </div>
+      </div>
+
+           <!-- News Embed -->
+      <div class="sub-header">News</div>
+      <div class="canva-embed">
+        <iframe
+          loading="lazy"
+          src="https://www.canva.com/design/DAGo12lFmxQ/V_PMqOtUwL4sbQZD7eqY0Q/view?embed"
+          allowfullscreen
+          title="News"
+        ></iframe>
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
